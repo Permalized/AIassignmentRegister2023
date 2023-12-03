@@ -7,13 +7,12 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v3
     - name: Add commands directory to PATH
-        run: |
-          echo "/HolismHolding/Commands" >> $GITHUB_PATH
+        run:  echo "" >> $GITHUB_PATH
     - name: configure
       run: ./configure
     - name: make
