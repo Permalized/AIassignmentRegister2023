@@ -11,6 +11,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: Add commands directory to PATH
+        run: |
+          echo "/HolismHolding/Commands" >> $GITHUB_PATH
     - name: configure
       run: ./configure
     - name: make
