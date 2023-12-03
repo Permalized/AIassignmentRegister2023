@@ -14,3 +14,7 @@ jobs:
       run : cd
     - name: Compile
       run : gcc Register2023.c -o D:\a\AIassignmentRegister2023\AIassignmentRegister2023
+    - name : Changing Directories
+      run : cd D:\a\AIassignmentRegister2023\AIassignmentRegister2023
+    - name : Showing files in directory
+      run : ls
