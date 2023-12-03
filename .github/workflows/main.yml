@@ -11,4 +11,4 @@ jobs:
     - name: Check cmake
       run: cmake --version
     - name: Compile
-      run : gcc generator.c
+      run : gcc Register2023.c
