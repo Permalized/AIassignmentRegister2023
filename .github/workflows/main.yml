@@ -13,8 +13,8 @@ jobs:
     - name : Show directory
       run : cd
     - name: Compile
-      run : gcc Register2023.c -o D:\a\AIassignmentRegister2023\AIassignmentRegister2023\result.exe
+      run : gcc Register2023.c -o D:\a\AIassignmentRegister2023\result.exe
     - name : Changing Directories
-      run : cd D:\a\AIassignmentRegister2023\AIassignmentRegister2023
+      run : cd D:\a\AIassignmentRegister2023
     - name : Showing files in directory
       run : ls
