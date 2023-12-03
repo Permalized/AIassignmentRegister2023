@@ -10,5 +10,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Check cmake
       run: cmake --version
+    - name : Show directory
+      run : cd
     - name: Compile
       run : gcc Register2023.c
