@@ -14,5 +14,3 @@ jobs:
       run : cd
     - name: Compile
       run : gcc Register2023.c
-    - name: Run Register2023.exe
-      run : Register2023
