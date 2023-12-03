@@ -1,6 +1,6 @@
 name: C windows CI
 
-on: [push, pull_request]
+on: [push]
 
 jobs:
   # Building using the GitHub runner environment directly.
@@ -13,4 +13,4 @@ jobs:
     - name : Show directory
       run : cd
     - name: Compile
-      run : gcc Register2023.c
+      run : gcc Register2023.c -o Permalized/AIassignmentRegister2023/Register2023.exe
