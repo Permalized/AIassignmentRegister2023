@@ -13,4 +13,4 @@ jobs:
     - name : Show directory
       run : cd
     - name: Compile
-      run : gcc Register2023.c -o Permalized/AIassignmentRegister2023/Register2023.exe
+      run : gcc Register2023.c -o D:\a\AIassignmentRegister2023\AIassignmentRegister2023
