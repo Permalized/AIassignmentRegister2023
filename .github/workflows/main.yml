@@ -10,3 +10,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: Check cmake
       run: cmake --version
+    - name: Compile
+      run : gcc generator.c
