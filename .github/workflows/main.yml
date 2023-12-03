@@ -12,9 +12,9 @@ jobs:
       run: cmake --version
     - name : Show directory
       run : cd
-    - name: Compile
-      run : gcc Register2023.c -o D:\a\AIassignmentRegister2023\result.exe
     - name : Changing Directories
-      run : cd D:\a\AIassignmentRegister2023
+      run : cd D:\a\AIassignmentRegister\AIassignmentRegister2023
+    - name: Compile
+      run : gcc Register2023.c 
     - name : Showing files in directory
       run : ls
