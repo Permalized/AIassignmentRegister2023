@@ -13,7 +13,7 @@ jobs:
     - name : Show directory
       run : cd
     - name : Changing Directories
-      run : cd D:\a\AIassignmentRegister\AIassignmentRegister2023
+      run : cd D:\a\AIassignmentRegister2023\AIassignmentRegister2023
     - name: Compile
       run : gcc Register2023.c 
     - name : Showing files in directory
