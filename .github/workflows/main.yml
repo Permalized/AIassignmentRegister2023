@@ -1,0 +1,12 @@
+name: C windows CI
+
+on: [push, pull_request]
+
+jobs:
+  # Building using the GitHub runner environment directly.
+  build:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Check cmake
+      run: cmake --version
